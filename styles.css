@@ -1,12 +1,16 @@
 h1 {
   font-size: 60px;
 }
+
 #front_page {
   text-align: center;
   color: black;
 }
 .display-image {
   max-width: 300px;
+  margin: 10px 0 0 0;
+  border: 1px solid #000;
+  float: left;
 }
 #info {
   display: inline;
@@ -17,4 +21,16 @@ h1 {
 }
 .drink-name {
   display: inline;
+}
+.description {
+  margin: 10px 10px 0 0;
+  padding: 0 0 0 8px;
+  background-color: #000;
+  color: #fff;
+  width: 200px;
+  float: left;
+}
+
+.each-item {
+  display: flex;
 }

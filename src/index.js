@@ -1,7 +1,6 @@
 const form = document.querySelector("#search-form");
 let image = document.querySelector("#image");
 let info = document.querySelector("#info");
-let fullInfo = document.querySelector("#full-info");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -18,13 +17,30 @@ function displayDrink(data) {
     let img = document.createElement("img");
     let drinkName = document.createElement("h2");
     let eachItem = document.createElement("div");
+    let eachItemInfo = document.createElement("div");
+    let description = document.createElement("p");
     img.src = data.drinks[i].strDrinkThumb;
     img.className = "display-image";
     drinkName.textContent = data.drinks[i].strDrink;
     drinkName.className = "drink-name";
-    // image.append(img);
-    eachItem.append(img, drinkName);
+    description.textContent = data.drinks[i].strInstructions;
+    eachItemInfo.className = "description";
+    eachItem.className = "each-item";
+
+    eachItemInfo.append(drinkName, description);
+    eachItem.append(img, eachItemInfo);
     info.append(eachItem);
-    //debugger;
+
+    for (
+      num = 1;
+      typeof data.drinks[i][`strIngredient${num}`] === "string";
+      num++
+    ) {
+      let li = document.createElement("li");
+      let ingredients = data.drinks[i][`strIngredient${num}`];
+      li.textContent = ingredients;
+      console.log(li);
+      eachItemInfo.append(li);
+    }
   }
 }
