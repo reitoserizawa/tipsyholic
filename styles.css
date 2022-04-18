@@ -6,5 +6,12 @@ h1 {
   color: black;
 }
 .display-image {
-  max-width: 100px;
+  max-width: 300px;
+}
+#info {
+  display: inline;
+}
+
+#full-info {
+  display: block;
 }

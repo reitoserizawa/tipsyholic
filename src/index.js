@@ -1,7 +1,7 @@
 const form = document.querySelector("#search-form");
-let image = document.querySelector("#photo-holder");
-let drinkInfo = document.querySelector("#info");
-let table = document.querySelector("#cocktail-info");
+let image = document.querySelector("#image");
+let info = document.querySelector("#info");
+let fullInfo = document.querySelector("#full-info");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -18,10 +18,12 @@ function displayDrink(data) {
     let img = document.createElement("img");
     let drinkName = document.createElement("h2");
     img.src = data.drinks[i].strDrinkThumb;
-    drinkName.textContent = data.drinks[i].strDrink;
     img.className = "display-image";
-    image.append(img);
-    drinkInfo.append(drinkName);
-    table.append(img, drinkName);
+    drinkName.textContent = data.drinks[i].strDrink;
+    drinkName.className = "drink-name";
+    // image.append(img);
+    info.append(img, drinkName);
+    // fullInfo.append(image, info);
+    debugger;
   }
 }
