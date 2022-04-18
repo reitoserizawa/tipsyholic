@@ -15,3 +15,6 @@ h1 {
 #full-info {
   display: block;
 }
+.drink-name {
+  display: inline;
+}

@@ -17,13 +17,14 @@ function displayDrink(data) {
   for (i = 0; i < data.drinks.length; i++) {
     let img = document.createElement("img");
     let drinkName = document.createElement("h2");
+    let eachItem = document.createElement("div");
     img.src = data.drinks[i].strDrinkThumb;
     img.className = "display-image";
     drinkName.textContent = data.drinks[i].strDrink;
     drinkName.className = "drink-name";
     // image.append(img);
-    info.append(img, drinkName);
-    // fullInfo.append(image, info);
-    debugger;
+    eachItem.append(img, drinkName);
+    info.append(eachItem);
+    //debugger;
   }
 }
