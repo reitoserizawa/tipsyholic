@@ -49,6 +49,12 @@ function displayDrink(data) {
     eachItem.append(img, eachItemInfo);
     info.append(eachItem);
 
+    img.addEventListener('mouseover', function() { 
+      img.style.filter = 'brightness(1.0)'})
+  
+    img.addEventListener('mouseout', function() { 
+      img.style.filter = 'brightness(1.0)' })
+
     for (
       num = 1;
       typeof data.drinks[i][`strIngredient${num}`] === "string";
@@ -61,23 +67,22 @@ function displayDrink(data) {
 
       if (Boolean(measure) === true) {
         li.textContent = ingredients + " - " + measure;
-        console.log(li);
         eachItemInfo.append(li);
       } else {
       
       li.textContent = ingredients
-      console.log(li);
       eachItemInfo.append(li);
         
       }
     }
 
     like.addEventListener("click", (e) => {
-      console.log(e.target);
       if (e.target.textContent === emptyLike.textContent)
         like.textContent = fullLike.textContent;
       else if (e.target.textContent === fullLike.textContent)
         like.textContent = emptyLike.textContent;
     });
+
   }
 }
+
