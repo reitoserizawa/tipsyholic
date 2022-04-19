@@ -1,5 +1,4 @@
 const form = document.querySelector("#search-form");
-let image = document.querySelector("#image");
 let info = document.querySelector("#info");
 
 form.addEventListener("submit", (e) => {
@@ -19,6 +18,15 @@ function displayDrink(data) {
     let eachItem = document.createElement("div");
     let eachItemInfo = document.createElement("div");
     let description = document.createElement("p");
+    let emptyLike = document.createElement("span");
+    let like = document.createElement("span");
+    emptyLike.textContent = " ♡";
+
+    like.textContent = emptyLike.textContent;
+
+    let fullLike = document.createElement("span");
+    fullLike.textContent = " ♥";
+    fullLike.className = "full-like";
     img.src = data.drinks[i].strDrinkThumb;
     img.className = "display-image";
     drinkName.textContent = data.drinks[i].strDrink;
@@ -27,7 +35,7 @@ function displayDrink(data) {
     eachItemInfo.className = "description";
     eachItem.className = "each-item";
 
-    eachItemInfo.append(drinkName, description);
+    eachItemInfo.append(drinkName, like, description);
     eachItem.append(img, eachItemInfo);
     info.append(eachItem);
 
@@ -42,7 +50,13 @@ function displayDrink(data) {
       console.log(li);
       eachItemInfo.append(li);
     }
+
+    like.addEventListener("click", (e) => {
+      console.log(e.target);
+      if (e.target.textContent === emptyLike.textContent)
+        like.textContent = fullLike.textContent;
+      else if (e.target.textContent === fullLike.textContent)
+        like.textContent = emptyLike.textContent;
+    });
   }
 }
-
-// hello
