@@ -1,11 +1,21 @@
 const form = document.querySelector("#search-form");
 let info = document.querySelector("#info");
+let yesButton = document.querySelector('#random-button')
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
+  info.textContent = ""
   fetch(
     `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${e.target["new-name"].value}`
   )
+    .then((res) => res.json())
+    .then((data) => displayDrink(data))
+    .catch((err) => console.log(err));
+});
+
+yesButton.addEventListener('click', (e) => {
+  info.textContent = '';
+  fetch(`https://www.thecocktaildb.com/api/json/v1/1/random.php`)
     .then((res) => res.json())
     .then((data) => displayDrink(data))
     .catch((err) => console.log(err));
@@ -44,11 +54,22 @@ function displayDrink(data) {
       typeof data.drinks[i][`strIngredient${num}`] === "string";
       num++
     ) {
-      let li = document.createElement("li");
+      
+      let li = document.createElement("li")
       let ingredients = data.drinks[i][`strIngredient${num}`];
-      li.textContent = ingredients;
+      let measure = data.drinks[i][`strMeasure${num}`];
+
+      if (Boolean(measure) === true) {
+        li.textContent = ingredients + " - " + measure;
+        console.log(li);
+        eachItemInfo.append(li);
+      } else {
+      
+      li.textContent = ingredients
       console.log(li);
       eachItemInfo.append(li);
+        
+      }
     }
 
     like.addEventListener("click", (e) => {
