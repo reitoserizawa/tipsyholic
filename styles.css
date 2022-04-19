@@ -33,3 +33,8 @@ h1 {
 .each-item {
   display: flex;
 }
+
+.display-image {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
