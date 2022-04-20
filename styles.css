@@ -1,21 +1,42 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Major Mono Display", monospace;
+  background-color: #000;
+  color: white;
+}
+
 h1 {
   font-size: 60px;
+  padding-top: 100px;
 }
-#front_page {
+.container {
+  align-items: center;
+  justify-content: center;
+}
+#front-page {
+  height: 100%;
   text-align: center;
-  color: black;
+  padding-bottom: 200px;
 }
+
 .display-image {
-  max-width: 300px;
+  max-width: 500px;
   margin: 10px 0 0 0;
   border: 1px solid #000;
   float: left;
 }
+
 #info {
+  height: 100%;
   display: inline;
+  align-content: normal;
 }
 
 #full-info {
+  height: 100%;
   display: block;
 }
 .drink-name {
@@ -24,17 +45,30 @@ h1 {
 .description {
   margin: 10px 10px 0 0;
   padding: 0 0 0 8px;
-  background-color: #000;
-  color: #fff;
-  width: 200px;
+
+  width: 400px;
   float: left;
 }
 
 .each-item {
+  padding-bottom: 20px;
+  height: 100%;
   display: flex;
+  justify-content: center;
 }
 
 .display-image {
-  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+  /* transition: all 3s ease-in-out; */
+}
+.like-button {
+  font-size: 60px;
+}
+#all-info {
+  padding-top: 30px;
+  height: 100%;
+}
+
+.intro {
+  font-size: 19.5px;
 }

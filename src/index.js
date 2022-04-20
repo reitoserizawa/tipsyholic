@@ -1,23 +1,32 @@
 const form = document.querySelector("#search-form");
 let info = document.querySelector("#info");
-let yesButton = document.querySelector("#random-button");
+let yesButton = document.querySelector(".random-button");
+let allInfo = document.getElementById("all-info").offsetTop;
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   info.textContent = "";
+
   fetch(
     `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${e.target["new-name"].value}`
   )
     .then((res) => res.json())
-    .then((data) => displayDrink(data))
+    .then((data) => {
+      displayDrink(data);
+      window.scrollTo({ top: allInfo, behavior: "smooth" });
+    })
     .catch((err) => console.log(err));
 });
 
 yesButton.addEventListener("click", (e) => {
   info.textContent = "";
+
   fetch(`https://www.thecocktaildb.com/api/json/v1/1/random.php`)
     .then((res) => res.json())
-    .then((data) => displayDrink(data))
+    .then((data) => {
+      displayDrink(data);
+      window.scrollTo({ top: allInfo, behavior: "smooth" });
+    })
     .catch((err) => console.log(err));
 });
 
@@ -26,10 +35,12 @@ function displayDrink(data) {
     let img = document.createElement("img");
     let drinkName = document.createElement("h2");
     let eachItem = document.createElement("div");
+
     let eachItemInfo = document.createElement("div");
     let description = document.createElement("p");
     let emptyLike = document.createElement("span");
     let like = document.createElement("span");
+    like.className = "like-button";
     emptyLike.textContent = " ♡";
     like.textContent = emptyLike.textContent;
     let fullLike = document.createElement("span");
@@ -43,16 +54,17 @@ function displayDrink(data) {
     eachItemInfo.className = "description";
     eachItem.className = "each-item";
 
-    eachItemInfo.append(drinkName, like, description);
+    eachItemInfo.append(drinkName, description);
     eachItem.append(img, eachItemInfo);
     info.append(eachItem);
 
     img.addEventListener("mouseover", function () {
       img.style.filter = "brightness(1.0)";
+      img.style.transition = "all ease-in-out 3s";
     });
-
     img.addEventListener("mouseout", function () {
-      img.style.filter = "brightness(1.0)";
+      img.style.transition = "all 3s ease-in-out";
+      img.style.filter = "grayscale(100)";
     });
 
     for (
@@ -66,10 +78,10 @@ function displayDrink(data) {
 
       if (Boolean(measure) === true) {
         li.textContent = ingredients + " - " + measure;
-        eachItemInfo.append(li);
+        eachItemInfo.append(li, like);
       } else {
         li.textContent = ingredients;
-        eachItemInfo.append(li);
+        eachItemInfo.append(li, like);
       }
     }
 
@@ -84,7 +96,7 @@ function displayDrink(data) {
         addFavItem(favDrink);
       } else if (e.target.textContent === fullLike.textContent) {
         like.textContent = emptyLike.textContent;
-        // removeFavItem(data);
+        removeFavItem(favDrink.id);
       }
     });
   }
@@ -98,6 +110,18 @@ function addFavItem(data) {
       Accept: "application/json",
     },
     body: JSON.stringify(data),
+  })
+    .then((response) => response.json())
+    .then((drink) => console.log(drink));
+}
+
+function removeFavItem(id) {
+  fetch(`http://localhost:3000/drinks/${id}`, {
+    method: "DELETE",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
   })
     .then((response) => response.json())
     .then((drink) => console.log(drink));
