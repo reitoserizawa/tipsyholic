@@ -6,7 +6,6 @@ let allInfo = document.getElementById("all-info").offsetTop;
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   info.textContent = "";
-
   fetch(
     `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${e.target["new-name"].value}`
   )
@@ -16,11 +15,11 @@ form.addEventListener("submit", (e) => {
       window.scrollTo({ top: allInfo, behavior: "smooth" });
     })
     .catch((err) => console.log(err));
+  form.reset();
 });
 
 yesButton.addEventListener("click", (e) => {
   info.textContent = "";
-
   fetch(`https://www.thecocktaildb.com/api/json/v1/1/random.php`)
     .then((res) => res.json())
     .then((data) => {
@@ -35,7 +34,6 @@ function displayDrink(data) {
     let img = document.createElement("img");
     let drinkName = document.createElement("h2");
     let eachItem = document.createElement("div");
-
     let eachItemInfo = document.createElement("div");
     let description = document.createElement("p");
     let emptyLike = document.createElement("span");
@@ -60,10 +58,10 @@ function displayDrink(data) {
 
     img.addEventListener("mouseover", function () {
       img.style.filter = "brightness(1.0)";
-      img.style.transition = "all ease-in-out 3s";
+      //  img.style.transition = "all ease-in-out 3s";
     });
     img.addEventListener("mouseout", function () {
-      img.style.transition = "all 3s ease-in-out";
+      // img.style.transition = "all 3s ease-in-out";
       img.style.filter = "grayscale(100)";
     });
 
@@ -88,6 +86,8 @@ function displayDrink(data) {
     like.addEventListener("click", (e) => {
       if (e.target.textContent === emptyLike.textContent) {
         like.textContent = fullLike.textContent;
+        like.style.color = "#d36699";
+
         favDrink = {
           strDrink: drinkName.textContent,
           strInstructions: description.textContent,
@@ -96,6 +96,7 @@ function displayDrink(data) {
         addFavItem(favDrink);
       } else if (e.target.textContent === fullLike.textContent) {
         like.textContent = emptyLike.textContent;
+        like.style.color = "#fff";
         removeFavItem(favDrink.id);
       }
     });

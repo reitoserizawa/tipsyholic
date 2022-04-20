@@ -59,7 +59,7 @@ h1 {
 
 .display-image {
   filter: grayscale(100%);
-  /* transition: all 3s ease-in-out; */
+  transition: all 3s ease-in-out;
 }
 .like-button {
   font-size: 60px;
