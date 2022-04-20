@@ -3,6 +3,8 @@ let info = document.querySelector("#info");
 let yesButton = document.querySelector(".random-button");
 let allInfo = document.getElementById("all-info").offsetTop;
 
+// Adding a 'submit' event to the search bar
+
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   info.textContent = "";
@@ -18,6 +20,8 @@ form.addEventListener("submit", (e) => {
     .catch((err) => console.log(err));
 });
 
+// Adding a 'click' event to random cocktails
+
 yesButton.addEventListener("click", (e) => {
   info.textContent = "";
 
@@ -30,33 +34,41 @@ yesButton.addEventListener("click", (e) => {
     .catch((err) => console.log(err));
 });
 
+// function for displaying all the drink data
+
 function displayDrink(data) {
   for (i = 0; i < data.drinks.length; i++) {
+
+    // Creating each element
+
     let img = document.createElement("img");
     let drinkName = document.createElement("h2");
-    let eachItem = document.createElement("div");
-
-    let eachItemInfo = document.createElement("div");
     let description = document.createElement("p");
     let emptyLike = document.createElement("span");
     let like = document.createElement("span");
-    like.className = "like-button";
-    emptyLike.textContent = " ♡";
-    like.textContent = emptyLike.textContent;
     let fullLike = document.createElement("span");
-    fullLike.textContent = " ♥";
-    fullLike.className = "full-like";
+    let eachItem = document.createElement("div");
+    let eachItemInfo = document.createElement("div");
+
+    // Inserting image src, drink name and description to created elements
+
     img.src = data.drinks[i].strDrinkThumb;
     img.className = "display-image";
     drinkName.textContent = data.drinks[i].strDrink;
     drinkName.className = "drink-name";
     description.textContent = data.drinks[i].strInstructions;
-    eachItemInfo.className = "description";
-    eachItem.className = "each-item";
 
+    // Appending each information
+
+    eachItemInfo.className = "description";
     eachItemInfo.append(drinkName, description);
-    eachItem.append(img, eachItemInfo);
+
+    eachItem.className = "each-item";
+    eachItem.append(img, eachItemInfo );
+
     info.append(eachItem);
+
+    //  Adding mouse-events to each appended picture
 
     img.addEventListener("mouseover", function () {
       img.style.filter = "brightness(1.0)";
@@ -66,6 +78,9 @@ function displayDrink(data) {
       img.style.transition = "all 3s ease-in-out";
       img.style.filter = "grayscale(100)";
     });
+
+    // Adding each ingredients and measurements to the drink information
+    // Using a loop as the data shown as 'strMeasure1', 'strMeasure2', etc.
 
     for (
       num = 1;
@@ -85,6 +100,16 @@ function displayDrink(data) {
       }
     }
 
+    // Inserting a 'like' button information to created elements
+
+    like.className = "like-button";
+    emptyLike.textContent = " ♡";
+    like.textContent = emptyLike.textContent;
+    fullLike.textContent = " ♥";
+    fullLike.className = "full-like";
+
+    // Adding an event to like button to change a color
+
     like.addEventListener("click", (e) => {
       if (e.target.textContent === emptyLike.textContent) {
         like.textContent = fullLike.textContent;
@@ -101,6 +126,8 @@ function displayDrink(data) {
     });
   }
 }
+
+// Clicking heart will add to the local db.json file
 
 function addFavItem(data) {
   fetch("http://localhost:3000/drinks", {
