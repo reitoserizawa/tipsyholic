@@ -1,5 +1,4 @@
-body,
-html {
+body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -12,14 +11,21 @@ h1 {
   font-size: 60px;
   padding-top: 100px;
 }
-.container {
-  align-items: center;
-  justify-content: center;
-}
-#front-page {
-  height: 100%;
+
+h3 {
+  padding-top: 60px;
   text-align: center;
-  padding-bottom: 200px;
+}
+
+footer {
+  text-align: center;
+  font-size: 10px;
+}
+
+.fav-photo {
+  text-align: center;
+  width: 220px;
+  padding: 10px;
 }
 
 .display-image {
@@ -29,23 +35,12 @@ h1 {
   float: left;
 }
 
-#info {
-  height: 100%;
-  display: inline;
-  align-content: normal;
-}
-
-#full-info {
-  height: 100%;
-  display: block;
-}
 .drink-name {
   display: inline;
 }
 .description {
   margin: 10px 10px 0 0;
   padding: 0 0 0 8px;
-
   width: 400px;
   float: left;
 }
@@ -55,20 +50,56 @@ h1 {
   height: 100%;
   display: flex;
   justify-content: center;
+  filter: grayscale(100%);
+  opacity: 30%;
+  transition: all 0.4s ease-in-out;
 }
 
-.display-image {
-  filter: grayscale(100%);
-  transition: all 3s ease-in-out;
-}
 .like-button {
   font-size: 60px;
 }
+
+.intro {
+  font-size: 19.5px;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+#front-page {
+  height: 100%;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+#info {
+  display: inline;
+  align-content: normal;
+}
+
+#full-info {
+  display: block;
+}
+
 #all-info {
   padding-top: 30px;
   height: 100%;
 }
 
-.intro {
-  font-size: 19.5px;
+#logo {
+  font-size: 40px;
+}
+
+#fav-drinks {
+  margin-bottom: 20px;
+}
+
+#fav-section {
+  height: 100%;
+}
+
+#github-link {
+  color: #fff;
 }

@@ -1,21 +1,9 @@
 {
   "drinks": [
     {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 1
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 2
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
+      "strDrink": "252",
+      "strInstructions": "Add both ingredients to shot glass, shoot, and get drunk quick",
+      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/rtpxqw1468877562.jpg",
       "id": 3
     },
     {
@@ -25,40 +13,10 @@
       "id": 4
     },
     {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 5
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 6
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 7
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 8
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
+      "strDrink": "Strawberry Margarita",
+      "strInstructions": "Rub rim of cocktail glass with lemon juice and dip rim in salt. Shake schnapps, tequila, triple sec, lemon juice, and strawberries with ice, strain into the salt-rimmed glass, and serve.",
+      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/tqyrpw1439905311.jpg",
       "id": 9
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 10
     },
     {
       "strDrink": "Margarita",
@@ -67,153 +25,81 @@
       "id": 11
     },
     {
-      "strDrink": "Blue Margarita",
-      "strInstructions": "Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake tequila, blue curacao, and lime juice with ice, strain into the salt-rimmed glass, and serve.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg",
+      "strDrink": "Tommy's Margarita",
+      "strInstructions": "Shake and strain into a chilled cocktail glass.",
+      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/loezxn1504373874.jpg",
       "id": 12
     },
     {
-      "strDrink": "Blue Margarita",
-      "strInstructions": "Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake tequila, blue curacao, and lime juice with ice, strain into the salt-rimmed glass, and serve.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg",
-      "id": 13
-    },
-    {
-      "strDrink": "Blue Margarita",
-      "strInstructions": "Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake tequila, blue curacao, and lime juice with ice, strain into the salt-rimmed glass, and serve.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg",
+      "strDrink": "Strawberry Margarita",
+      "strInstructions": "Rub rim of cocktail glass with lemon juice and dip rim in salt. Shake schnapps, tequila, triple sec, lemon juice, and strawberries with ice, strain into the salt-rimmed glass, and serve.",
+      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/tqyrpw1439905311.jpg",
       "id": 14
     },
     {
-      "strDrink": "Blue Margarita",
-      "strInstructions": "Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake tequila, blue curacao, and lime juice with ice, strain into the salt-rimmed glass, and serve.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg",
-      "id": 15
-    },
-    {
-      "strDrink": "Blue Margarita",
-      "strInstructions": "Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake tequila, blue curacao, and lime juice with ice, strain into the salt-rimmed glass, and serve.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg",
+      "strDrink": "Margarita",
+      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
+      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
       "id": 16
     },
     {
-      "strDrink": "Blue Margarita",
-      "strInstructions": "Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake tequila, blue curacao, and lime juice with ice, strain into the salt-rimmed glass, and serve.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg",
-      "id": 17
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 18
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
+      "strDrink": "Strawberry Margarita",
+      "strInstructions": "Rub rim of cocktail glass with lemon juice and dip rim in salt. Shake schnapps, tequila, triple sec, lemon juice, and strawberries with ice, strain into the salt-rimmed glass, and serve.",
+      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/tqyrpw1439905311.jpg",
       "id": 19
     },
     {
-      "strDrink": "Blue Margarita",
-      "strInstructions": "Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake tequila, blue curacao, and lime juice with ice, strain into the salt-rimmed glass, and serve.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg",
-      "id": 20
-    },
-    {
-      "strDrink": "Blue Margarita",
-      "strInstructions": "Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake tequila, blue curacao, and lime juice with ice, strain into the salt-rimmed glass, and serve.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg",
+      "strDrink": "Margarita",
+      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
+      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
       "id": 21
-    },
-    {
-      "strDrink": "Blue Margarita",
-      "strInstructions": "Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake tequila, blue curacao, and lime juice with ice, strain into the salt-rimmed glass, and serve.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg",
-      "id": 22
-    },
-    {
-      "strDrink": "Blue Margarita",
-      "strInstructions": "Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake tequila, blue curacao, and lime juice with ice, strain into the salt-rimmed glass, and serve.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg",
-      "id": 23
-    },
-    {
-      "strDrink": "Blue Margarita",
-      "strInstructions": "Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake tequila, blue curacao, and lime juice with ice, strain into the salt-rimmed glass, and serve.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg",
-      "id": 24
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 25
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 26
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 27
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 28
-    },
-    {
-      "strDrink": "Blue Margarita",
-      "strInstructions": "Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake tequila, blue curacao, and lime juice with ice, strain into the salt-rimmed glass, and serve.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg",
-      "id": 29
     },
     {
       "strDrink": "Tommy's Margarita",
       "strInstructions": "Shake and strain into a chilled cocktail glass.",
       "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/loezxn1504373874.jpg",
-      "id": 30
+      "id": 23
     },
     {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
+      "strDrink": "Strawberry Margarita",
+      "strInstructions": "Rub rim of cocktail glass with lemon juice and dip rim in salt. Shake schnapps, tequila, triple sec, lemon juice, and strawberries with ice, strain into the salt-rimmed glass, and serve.",
+      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/tqyrpw1439905311.jpg",
+      "id": 25
+    },
+    {
+      "strDrink": "Strawberry Margarita",
+      "strInstructions": "Rub rim of cocktail glass with lemon juice and dip rim in salt. Shake schnapps, tequila, triple sec, lemon juice, and strawberries with ice, strain into the salt-rimmed glass, and serve.",
+      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/tqyrpw1439905311.jpg",
+      "id": 27
+    },
+    {
+      "strDrink": "Tommy's Margarita",
+      "strInstructions": "Shake and strain into a chilled cocktail glass.",
+      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/loezxn1504373874.jpg",
+      "id": 29
+    },
+    {
+      "strDrink": "Strawberry Margarita",
+      "strInstructions": "Rub rim of cocktail glass with lemon juice and dip rim in salt. Shake schnapps, tequila, triple sec, lemon juice, and strawberries with ice, strain into the salt-rimmed glass, and serve.",
+      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/tqyrpw1439905311.jpg",
       "id": 31
     },
     {
       "strDrink": "Margarita",
       "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
       "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 32
-    },
-    {
-      "strDrink": "Blue Margarita",
-      "strInstructions": "Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake tequila, blue curacao, and lime juice with ice, strain into the salt-rimmed glass, and serve.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg",
       "id": 33
     },
     {
-      "strDrink": "Russian Spring Punch",
-      "strInstructions": "Pour the ingredients into an highball glass, top with Sparkling wine.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/ctt20s1504373488.jpg",
-      "id": 34
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
+      "strDrink": "Strawberry Margarita",
+      "strInstructions": "Rub rim of cocktail glass with lemon juice and dip rim in salt. Shake schnapps, tequila, triple sec, lemon juice, and strawberries with ice, strain into the salt-rimmed glass, and serve.",
+      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/tqyrpw1439905311.jpg",
       "id": 35
     },
     {
-      "strDrink": "Tommy's Margarita",
-      "strInstructions": "Shake and strain into a chilled cocktail glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/loezxn1504373874.jpg",
+      "strDrink": "Smashed Watermelon Margarita",
+      "strInstructions": "In a mason jar muddle the watermelon and 5 mint leaves together into a puree and strain. Next add the grapefruit juice, juice of half a lime and the tequila as well as some ice. Put a lid on the jar and shake. Pour into a glass and add more ice. Garnish with fresh mint and a small slice of watermelon.",
+      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/dztcv51598717861.jpg",
       "id": 36
     },
     {
@@ -221,126 +107,6 @@
       "strInstructions": "Shake and strain into a chilled cocktail glass.",
       "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/loezxn1504373874.jpg",
       "id": 37
-    },
-    {
-      "strDrink": "Whitecap Margarita",
-      "strInstructions": "Place all ingredients in a blender and blend until smooth. This makes one drink.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/srpxxp1441209622.jpg",
-      "id": 38
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 39
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 40
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 41
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 42
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 43
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 44
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 45
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 46
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 47
-    },
-    {
-      "strDrink": "Margarita",
-      "strInstructions": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-      "id": 48
-    },
-    {
-      "strDrink": "Blue Margarita",
-      "strInstructions": "Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake tequila, blue curacao, and lime juice with ice, strain into the salt-rimmed glass, and serve.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg",
-      "id": 49
-    },
-    {
-      "strDrink": "Adam Sunrise",
-      "strInstructions": "Fill blender up with ice. Fill half with Bartons Vodka. Put 10 tsp of sugar, add 1/2 can lemonade concentrate, fill to top with water. Blend for 60 seconds.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/vtuyvu1472812112.jpg",
-      "id": 50
-    },
-    {
-      "strDrink": "Adam Sunrise",
-      "strInstructions": "Fill blender up with ice. Fill half with Bartons Vodka. Put 10 tsp of sugar, add 1/2 can lemonade concentrate, fill to top with water. Blend for 60 seconds.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/vtuyvu1472812112.jpg",
-      "id": 51
-    },
-    {
-      "strDrink": "Adam Sunrise",
-      "strInstructions": "Fill blender up with ice. Fill half with Bartons Vodka. Put 10 tsp of sugar, add 1/2 can lemonade concentrate, fill to top with water. Blend for 60 seconds.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/vtuyvu1472812112.jpg",
-      "id": 52
-    },
-    {
-      "strDrink": "Adam Sunrise",
-      "strInstructions": "Fill blender up with ice. Fill half with Bartons Vodka. Put 10 tsp of sugar, add 1/2 can lemonade concentrate, fill to top with water. Blend for 60 seconds.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/vtuyvu1472812112.jpg",
-      "id": 53
-    },
-    {
-      "strDrink": "Darkwood Sling",
-      "strInstructions": "There are many good cherry liqueurs you can use, but I prefere Heering. Add one share of the liqueur. Then you add one share of Soda. For a sour sling use Tonic (most people prefer the drink without Tonic). Afterwards you fill the glass with Orange Juice and ice cubes.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/sxxsyq1472719303.jpg",
-      "id": 54
-    },
-    {
-      "strDrink": "Darkwood Sling",
-      "strInstructions": "There are many good cherry liqueurs you can use, but I prefere Heering. Add one share of the liqueur. Then you add one share of Soda. For a sour sling use Tonic (most people prefer the drink without Tonic). Afterwards you fill the glass with Orange Juice and ice cubes.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/sxxsyq1472719303.jpg",
-      "id": 55
-    },
-    {
-      "strDrink": "Darkwood Sling",
-      "strInstructions": "There are many good cherry liqueurs you can use, but I prefere Heering. Add one share of the liqueur. Then you add one share of Soda. For a sour sling use Tonic (most people prefer the drink without Tonic). Afterwards you fill the glass with Orange Juice and ice cubes.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/sxxsyq1472719303.jpg",
-      "id": 56
-    },
-    {
-      "strDrink": "Blue Margarita",
-      "strInstructions": "Rub rim of cocktail glass with lime juice. Dip rim in coarse salt. Shake tequila, blue curacao, and lime juice with ice, strain into the salt-rimmed glass, and serve.",
-      "strDrinkThumb": "https://www.thecocktaildb.com/images/media/drink/bry4qh1582751040.jpg",
-      "id": 57
     }
   ]
 }
