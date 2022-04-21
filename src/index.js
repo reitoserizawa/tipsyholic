@@ -8,22 +8,28 @@ let lightModeButton = document.querySelector("#light-mode-button");
 let favoriteDrinks = document.getElementById("fav-drinks");
 const favHeading = document.querySelector("#fav-heading");
 const favButton = document.querySelector("#fav-button");
+const reloadButton = document.querySelector("#logo");
 
 // Adding a 'submit' event to the search bar, fetching through external API
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  info.textContent = "";
-  fetch(
-    `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${e.target["new-name"].value}`
-  )
-    .then((res) => res.json())
-    .then((data) => {
-      displayDrink(data);
-      window.scrollTo({ top: allInfo, behavior: "smooth" });
-    })
-    .catch((err) => console.log(err));
-  form.reset();
+
+  if (e.target["new-name"].value === "")
+    alert("YOU FORGOT TO ENTER A DRINK 🍸");
+  else {
+    info.textContent = "";
+    fetch(
+      `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${e.target["new-name"].value}`
+    )
+      .then((res) => res.json())
+      .then((data) => {
+        displayDrink(data);
+        window.scrollTo({ top: allInfo, behavior: "smooth" });
+      })
+      .catch((err) => console.log(err));
+    form.reset();
+  }
 });
 
 // Adding a 'click' event to random cocktails
@@ -115,26 +121,6 @@ function displayDrink(data) {
     fullLike.textContent = " ♥";
     fullLike.className = "full-like";
 
-    // fetch(`http://localhost:3000/drinks`)
-    //   .then((res) => res.json())
-    //   .then((dataLocal) => {
-    //     sortingFunction(data, dataLocal);
-    //   })
-    //   .catch((err) => console.log(err));
-
-    // function sortingFunction(data, dataLocal) {
-    //   let dataApi = data.drinks;
-
-    //   // for (var i = 0; i < dataApi.length; i++) {
-    //   //   for (var e = 0; e < dataLocal.length; e++) {
-    //   //     if (dataApi[i].strDrink === dataLocal[e].strDrink) {
-    //   //       console.log("its a match");
-    //   //       like.textContent = fullLike.textContent;
-    //   //     } else like.textContent = emptyLike.textContent;
-    //   //   }
-    //   // }
-    // }
-
     // Adding an event to like button to change a color
     // Event calls add fav item function OR delete fav item function
 
@@ -224,9 +210,24 @@ function favDrinks(drink) {
 lightModeButton.addEventListener("click", () => {
   var element = document.body;
   element.classList.toggle("light-mode");
+  if (lightModeButton.textContent === " light mode") {
+    lightModeButton.textContent = " dark mode";
+  } else if (lightModeButton.textContent === " dark mode") {
+    lightModeButton.textContent = " light mode";
+  }
 });
 
 favButton.addEventListener("click", () => {
   let favSection = document.getElementById("fav-section").offsetTop;
   window.scrollTo({ top: favSection, behavior: "smooth" });
 });
+
+// Event listeners for reload
+
+reloadButton.addEventListener("click", reload, false);
+
+// Reloading the page
+
+function reload() {
+  reload = location.reload();
+}
