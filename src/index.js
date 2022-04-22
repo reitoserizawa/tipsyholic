@@ -9,6 +9,7 @@ let favoriteDrinks = document.getElementById("fav-drinks");
 const favHeading = document.querySelector("#fav-heading");
 const favButton = document.querySelector("#fav-button");
 const reloadButton = document.querySelector("#logo");
+let arrFavorite = [];
 
 // Adding a 'submit' event to the search bar, fetching through external API
 
@@ -198,13 +199,52 @@ function removeFavItem(data) {
 
 // Adding photo to a favorite div element
 
-function favDrinks(drink) {
-  let favPhoto = document.createElement("img");
-  favPhoto.className = "fav-photo";
-  favPhoto.src = drink.strDrinkThumb;
-  favoriteDrinks.append(favPhoto);
-}
+function favDrinks(drinks) {
+  arrFavorite.push(drinks);
 
+  let img = document.createElement("img");
+  img.src = drinks.strDrinkThumb;
+  img.className = "fav-photo";
+  favoriteDrinks.appendChild(img);
+
+  // Creating modal for each favorite item
+
+  arrFavorite.map((drink) => {
+    console.log(drink.strDrink);
+    console.log(drink);
+    let image = document.createElement("img");
+    let modal = document.getElementById("myModal");
+    let infoModal = document.getElementById("info-modal");
+    let span = document.getElementsByClassName("close")[0];
+    let drinkNameModal = document.createElement("h5");
+
+    img.addEventListener("click", (e) => {
+      infoModal.innerHTML = "";
+      drinkNameModal.textContent = drinks.strDrink;
+      image.src = e.target.currentSrc;
+      image.className = "modal-photo";
+      image.id = "modal-photo";
+      modal.style.display = "block";
+      infoModal.append(drinkNameModal, image);
+    });
+
+    // Adding event listeners to close modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    };
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    };
+
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" || event.target) {
+        modal.style.display = "none";
+      }
+    });
+  });
+}
 // Switching to light mode
 
 lightModeButton.addEventListener("click", () => {

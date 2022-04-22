@@ -62,6 +62,10 @@ footer {
   font-size: 60px;
 }
 
+.like-button:hover {
+  cursor: pointer;
+}
+
 .intro {
   font-size: 19.5px;
 }
@@ -69,6 +73,42 @@ footer {
 .light-mode {
   background-color: white;
   color: black;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #000000;
+  margin: auto;
+  padding: 20px;
+  border: 0.5px solid #888;
+  width: 50%;
+}
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 #front-page {
@@ -116,4 +156,11 @@ footer {
 
 #github-link {
   color: #fff;
+}
+
+#info-modal {
+  text-align: center;
+}
+#modal-photo {
+  width: 100%;
 }
