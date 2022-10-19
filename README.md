@@ -39,3 +39,9 @@ https://user-images.githubusercontent.com/100802000/196789818-71fd9d58-2904-4f49
 open index.html
 json-server --watch db.json
 ```
+
+<h2>Collaborator</h2>
+
+<h2>Collaborator</h2>
+<p>Alina Pisarenko:+1: https://github.com/AlinaPisarenko</p>
+<p>Reito Serizawa:+1: https://github.com/reitoserizawa</p>
